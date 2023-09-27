@@ -1,0 +1,73 @@
+.pic{
+    border-radius: 100%;
+    width: 150px;
+    filter: saturate(100%);
+    border: 5px solid #dadada;
+
+    transition: all 0.3s;
+}
+
+.main{
+    position: absolute;
+    width: 298px;
+    height: 128px;
+    left: 600px;
+    top: 200px;
+}
+
+.name{
+    font-family: 'poppins';
+    font-style: bold;
+    font-weight: 550;
+    font-size: 35px;
+    position: absolute;
+    color: #dadada;
+    left: 40px;
+    top: 140px;
+}
+
+.tl{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    position: absolute;
+    color: #aaaaaa;
+    left: 90px;
+    top: 185px;
+}
+
+.medias{
+    position: absolute;
+    width: 298px;
+    height: 128px;
+    left: 620px;
+    top: 450px;
+}
+.fa-brands{
+    color: #dadada;
+    padding-right: 20px;
+    transition: all 0.3s;
+}
+.fa-brands:hover{
+    color: blue;
+}
+
+.works{
+    color: #dadada;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #141414;
+
+    position: absolute;
+    left: 1430px;
+    top: 25px;
+
+    transition: all 0.3s;
+}
+.works:hover{
+    color: #141414;
+}
