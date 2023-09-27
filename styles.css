@@ -54,20 +54,44 @@
 }
 
 .works{
-    color: #dadada;
-    padding: 10px 15px;
+    background-color: transparent;
+    color: #5e5e5e;
+    padding: 10px 12px;
+    border: 0.2px solid #5e5e5e;
     text-align: center;
     display: inline;
     font-size: 12px;
-    border-radius: 10px;
-    background-color: #141414;
+    border-radius: 35px;
 
     position: absolute;
-    left: 1430px;
-    top: 25px;
+    left: 710px;
+    top: 720px;
 
     transition: all 0.3s;
 }
 .works:hover{
-    color: #141414;
+    color: #ffffff;
+    border: 1px solid #5e5e5e;
+}
+
+.bkbtn{
+    background-color: transparent;
+    color: #5e5e5e;
+    padding: 5px 10px;
+    border: 0.2px solid #5e5e5e;
+    text-align: center;
+    display: inline;
+    font-size: 12px;
+    border-radius: 15px;
+
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+    transition: all 0.3s;
+}
+.bkbtn:hover{
+    color: #ffffff;
+    padding: 7px 15px;
+    border-radius: 35px;
 }
